@@ -13,7 +13,6 @@
     background-image: url('../public/header_bg.png'), url('../public/developer.png');
     background-repeat: no-repeat;
     background-position: right bottom, left, top;
-    height: 750px;
 }
 
 .navbar {
@@ -65,4 +64,32 @@ nav {
 
 .hire-button:hover {
     cursor: pointer;
+}
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 25px 0 200px;
+}
+
+.banner-content {
+    width: 580px;
+}
+
+#pfofile-photo {
+    width: 500px;
+}
+
+.banner-titile {
+    font-size: 45px;
+}
+
+#banner-tittle-sub {
+    font-size: 85px;
+}
+
+.banner-des {
+    font-size: 16px;
+    font-weight: 300;
 }
