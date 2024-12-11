@@ -4,7 +4,65 @@
     font-family: "Open Sans", sans-serif;
 }
 
+.container {
+    margin: 10px 30px;
+    background-color: #FFF8F3;
+}
+
+.header {
+    background-image: url('../public/header_bg.png'), url('../public/developer.png');
+    background-repeat: no-repeat;
+    background-position: right bottom, left, top;
+    height: 750px;
+}
+
 .navbar {
     color: blueviolet;
     font-size: 40px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    margin: 0px 150px;
+    justify-content: space-between;
+}
+
+.title {
+    font-size: 45px;
+    color: black;
+    font-weight: bold;
+}
+
+#sub-title {
+    color: #FD6E0A;
+}
+
+.nav-link {
+    display: flex;
+    list-style-type: none;
+}
+
+.nav-link li {
+    display: flex;
+    align-items: center;
+}
+
+.nav-link li a {
+    padding: 10px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.hire-button {
+    background-color: #FD6E0A;
+    padding: 10px 12px;
+    border: none;
+    border-radius: 5px;
+    color: #FFF8F3;
+    font-size: 20px;
+}
+
+.hire-button:hover {
+    cursor: pointer;
 }
