@@ -136,3 +136,28 @@ main section {
 .det div h2 {
     font-size: 20px;
 }
+
+.skills {
+    padding: 10px 50px;
+}
+
+.skills-box {
+    display: flex;
+    gap: 15px;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.box-item {
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.skill-des {
+    text-align: center;
+}
+
+.skill-title {
+    text-align: center;
+}
